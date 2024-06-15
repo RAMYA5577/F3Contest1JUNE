@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 350;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+p{
+    margin-top: 50px;
+    margin-left: 110px;
+    border-bottom: 1px solid white;
+    width: 200px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#incrementBtn,#decrementBtn,#clear{
+    margin-top: 50px;
+    margin-left: 10px;
+    border-color: white;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+#buttonArea{
+    margin-left: 110px;
+}
+#incrementBtn,#decrementBtn{
+    background-color: white;
+    color: rgb(17, 17, 17);
+}
+#count{
+    color: red;
+}
+.errorMessage{
+    color:red;
+    margin-left: 110px;
+    /* margin-top: 20px; */
+    
+}
